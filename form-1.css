@@ -1,0 +1,89 @@
+/* Genel Stil Ayarları */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f4f4f9; /* Arka plan rengi */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Header arka plan rengi */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ana İçerik */
+main {
+    padding: 20px;
+}
+article {
+    background-color: #fff; /* Form arka plan rengi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form Stilleri */
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, select, textarea, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+button {
+    background-color: #4CAF50; /* Buton arka plan rengi */
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049; /* Buton hover efekti */
+}
+input[type="checkbox"] {
+    width: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Footer arka plan rengi */
+    color: white;
+    margin-top: 20px;
+}
